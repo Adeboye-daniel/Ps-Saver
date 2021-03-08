@@ -1,0 +1,131 @@
+@media screen and (max-width:838px){
+    .circle img{
+      display: none;
+        }
+    
+    .circle{
+    height:800px;
+    width:600px;
+    position: fixed;
+    top: -400px;
+    left: -200px;
+    border-radius: 50%;
+    position: relative;
+    z-index: -2;
+    background: linear-gradient(#E21111,#F4A9A9)
+    }
+    .form{
+        position: absolute;
+        top:10%;
+        transform:translateY(-50%);
+        right: 50%;
+        transform: translateX(50%);
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        justify-content: space-around
+        }
+}
+
+
+@media screen and (max-width:289px){
+    input.username , input.password{
+        height:1cm;
+        width:80%;
+    }
+
+    .submit-btn{
+        width:80%
+    }
+}
+
+
+@media screen and (max-width:445px){
+    body{
+        overflow-x: hidden;
+    }
+    nav{
+        position: sticky;
+        top:0;
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+        height:1.7cm;
+        background: linear-gradient(to right, #E21111,#F4A9A9);
+        font-family: poppinreg;
+       
+    }
+    .logo{
+        margin-left: -10%;
+    }
+ .nav-links{
+        display: none;
+        flex-direction: column;
+       margin-top: 2cm;
+       float: left;
+       margin:0;
+       position: absolute;
+       top:1.7cm;
+       width:100%;
+       padding:7px;
+       opacity:0;
+       transform: translateX(-200%);
+       user-select: none;
+       background: linear-gradient(to right, #E21111,#F4A9A9);
+       transition:1s ease;
+    }
+    .toggle_list{
+        opacity:1;
+        transform: translateX(0%);
+    }
+  
+    .nav-toggle .fa{
+        cursor: pointer;
+    display: block
+    }
+ 
+    nav .nav-links li{
+        padding:8px;
+    }
+    .about-content p{
+        width:90%;
+        margin:10px;
+    }
+}
+
+@media screen and (max-width:748px){
+    .circle{
+        display: none
+    }
+    .form h1{
+        display:block;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-height:565px){
+    .form{
+        position: absolute;
+        top:10%;
+        transform:translateY(-50%);
+        right: 50%;
+        transform: translateX(50%);
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        justify-content: space-around
+        }
+}

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ps - home</title>
+</head>
+<link rel="stylesheet"href="lib/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet"href="css/component.css">
+<link rel="stylesheet"href="css/responsive.css">
+<body>
+
+    <div id="overlay">
+        <h1>PS-Saver</h1>
+        <div class="loader">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            
+        </div>
+    </div>
+
+
+
+<section id="top">
+    <nav>
+<div class="logo">
+    <h2>PS Saver</h2>
+</div>
+    <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-toggle">
+        <i class="fa fa-bars"></i>
+    </div>
+</nav>
+
+</section>
+
+<section id="banner">
+    <div class="content">
+        <div class="row">
+            <div class="text">
+            <h1>Ps Saver</h1>
+            <p>You are now logged in...Trust us and save your password today</p>
+        </div>
+    </div>
+        <div class="row">
+            <img src="img/svg-1red.png"class="banner-img">
+        </div>
+    </div>
+</section>
+
+<h1 style="text-align: center;color:var(--dark);margin-top: 3rem;margin-bottom: 30px;">Save login(s) Details</h1>
+    
+<div class="saveArea">
+ <div class="save_form">
+                <form action=""method="POST">
+                    <input type="text"placeholder="App name"><br />
+                    <input type="text"placeholder="Email/ Phone no"><br />
+                    <input type="text"placeholder="Username"><br />
+                    <input type="text"placeholder="Password"><br />
+                    <input type="submit" class="submit-btn"value="Save"><br />
+                </form>
+            </div>
+
+<div class="tab">
+    <table border="1">
+        <tr>
+            <th>Id</th>
+            <th>App Name</th>
+            <th>Email/Phone no</th>
+            <th>Username</th>
+            <th>Password</th>
+            <th>Action</th>
+        </tr>
+        <tr>
+            <th>1</th>
+            <th>Facebook</th>
+            <th>example1@gmail.com</th>
+            <th>Timi Leyin</th>
+            <th>~9743`';var(helloworld)</th>
+            <th>
+                <a href="">Update</a><br />
+                <a href="">Delete</a>
+            </th>
+        </tr>
+    </table>
+</div>
+</div>
+
+<section id="about">
+    <h1 style="font-size:40px;text-align: center;color:var(--dark);margin-top: 3rem;margin-bottom: 30px">About</h1>
+    <div class="about-content">
+        <p>Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Nulla porttitor accumsan tincidunt.
+
+                Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vivamus suscipit tortor eget felis porttitor volutpat. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. porttitor at sem.
+                
+                Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Nulla porttitor accumsan tincidunt. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a</p>
+    </div>
+</section>
+
+<section id="contact">
+       <footer>
+<div class rows>
+    <ul>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Support</a></li>
+    </ul>
+</div>
+<div class rows>
+    <ul>
+        <li><a href="report.html">Report a Problem</a></li>
+        <li><a href="help.html">Help</a></li>
+        <li><a href="">Log out</a></li>
+    </ul>
+</div>
+        </footer>
+    </section>
+
+    
+<script src="js/script.js"></script>
+<script>
+let hamburger=document.querySelector(".fa-bars");
+
+hamburger.addEventListener("click",()=>{
+    document.querySelector(".nav-links").classList.toggle("toggle_list")
+})
+
+</script>
+</body>
+</html>
